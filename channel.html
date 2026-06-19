@@ -23,7 +23,31 @@
     <h2>Doctor Channeling & Appointments</h2>
     <p>Find your <Strong> <a href="doctors.html">Doctors</a> </Strong> and book your appointment instantly.</p>
     <hr>
+ <h3>Search for Doctors</h3>
+    <form>
+        <label for="search-doctor">Doctor Name:</label><br>
+        <input type="text" id="search-doctor" name="search-doctor" placeholder="e.g., Dr. Saliya"><br><br>
 
+        <label for="department">Select Department:</label><br>
+        <select id="department" name="department">
+            <option value="">-- Choose Department --</option>
+            <option value="cardiology">Cardiology</option>
+            <option value="neurology">Neurology</option>
+            <option value="pediatrics">Pediatrics</option>
+            <option value="dermatology">Dermatology</option>
+            <option value="orthopedics">Orthopedics</option>
+        </select><br><br>
+
+        <label for="channel-date">Preferred Date:</label><br>
+        <input type="date" id="channel-date" name="channel-date"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+
+
+    
 
 
 </body>
