@@ -23,7 +23,7 @@
     <h2>Doctor Channeling & Appointments</h2>
     <p>Find your <Strong> <a href="doctors.html">Doctors</a> </Strong> and book your appointment instantly.</p>
     <hr>
- <h3>Search for Doctors</h3>
+    <h3>Search for Doctors</h3>
     <form>
         <label for="search-doctor">Doctor Name:</label><br>
         <input type="text" id="search-doctor" name="search-doctor" placeholder="e.g., Dr. Saliya"><br><br>
@@ -46,8 +46,31 @@
 
     <hr>
 
+    <h3>Channel your Appointment</h3>
+    <p>Please fill in the patient details.</p>
 
-    
+    <form>
+        <fieldset>
+            <legend>Patient Details</legend><br>
+            <label for="full-name">Full Name:</label><br>
+            <input type="text" id="full-name" name="full-name"><br><br>
+
+            <label for="phone">Contact Number:</label><br>
+            <input type="text" id="phone" name="phone" placeholder="e.g., +94 3456789" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="select-doctor">Select Doctor</label><br>
+            <input type="text" name="select-doctor" id="select-doctor"><br><br>
+
+            <label for="notes">Reason for Visit / Symptoms (Optional):</label><br>
+            <textarea id="notes" name="notes"></textarea><br><br>
+
+        <input type="submit" value="Confirm">
+
+        </fieldset>
+
 
 
 </body>
