@@ -62,6 +62,36 @@
 
     <hr>
 
+    <h2>Leave a Review</h2>
+    <form>
+        <fieldset>
+            <legend>Share Your Experience</legend>
+
+            <label for="review-title">Review Title:</label><br>
+            <input type="text" id="review-title" name="review-title" placeholder="e.g., Great Emergency Care"><br><br>
+
+            <label for="patient-name">Your Name (or Anonymous):</label><br>
+            <input type="text" id="patient-name" name="patient-name" placeholder="Anonymous"><br><br>
+
+            <label for="rating">Rating:</label><br>
+            <select id="rating" name="rating">
+                <option value="5">(5)</option>
+                <option value="4">(4)</option>
+                <option value="3">(3)</option>
+                <option value="2">(2)</option>
+                <option value="1">(1)</option>
+            </select><br><br>
+
+            <label for="comments">Your Feedback:</label><br>
+            <textarea id="comments" name="comments" placeholder="Write your experience here..."></textarea><br><br>
+
+            <input type="submit" value="Submit Review"></input>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Clear Review">
+
+        </fieldset>
+    </form>
+
 </body>
 
 </html>
