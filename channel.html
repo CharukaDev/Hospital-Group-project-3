@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital System</title>
+</head>
+
+<body>
+    <div align="center">
+        <h1>ABC Hospital</h1>
+        <hr>
+        <nav>
+            | <a href="index.html">Home</a> |
+            <a href="doctors.html">Our Doctors</a> |
+            <a href="departments.html">Our Departments</a> |
+            <strong><a href="channel.html">Channel A Doctor</a></strong> |
+            <a href="reviews.html">Reviews</a> |
+        </nav>
+        <hr>
+    </div>
+    <h2>🩺Doctor Channeling & Appointments</h2>
+    <p>Find your <Strong> <a href="doctors.html">Doctors</a> </Strong> and book your appointment instantly.</p>
+    <hr>
+    <h3>🧑‍⚕️👩‍⚕️Search for Doctors</h3>
+    <form>
+        <label for="search-doctor">Doctor Name:</label><br>
+        <input type="text" id="search-doctor" name="search-doctor" placeholder="e.g., Dr. Saliya"><br><br>
+
+        <label for="department">Select Department:</label><br>
+        <select id="department" name="department">
+            <option value="">-- Choose Department --</option>
+            <option value="cardiology">Cardiology</option>
+            <option value="neurology">Neurology</option>
+            <option value="pediatrics">Pediatrics</option>
+            <option value="dermatology">Dermatology</option>
+            <option value="orthopedics">Orthopedics</option>
+        </select><br><br>
+
+        <label for="channel-date">Preferred Date:</label><br>
+        <input type="date" id="channel-date" name="channel-date"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <hr>
+
+    <h3>😷Channel your Appointment</h3>
+    <p>Please fill in the patient details.</p>
+
+    <form>
+        <fieldset>
+            <legend>Patient Details</legend><br>
+            <label for="full-name">Full Name:</label><br>
+            <input type="text" id="full-name" name="full-name"><br><br>
+
+            <label for="phone">Contact Number:</label><br>
+            <input type="text" id="phone" name="phone" placeholder="e.g., +94 3456789" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="select-doctor">Select Doctor</label><br>
+            <input type="text" name="select-doctor" id="select-doctor"><br><br>
+
+            <label for="notes">Reason for Visit / Symptoms (Optional):</label><br>
+            <textarea id="notes" name="notes"></textarea><br><br>
+
+            <input type="submit" value="Confirm">
+
+        </fieldset>
+
+
+
+</body>
+
+</html>
